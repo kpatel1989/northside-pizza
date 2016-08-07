@@ -697,22 +697,308 @@ $menuData = array(
 			'price' => 3.90
 		)
 	),
-	'yogen-frux' => array(
-		array(
-			'id' => 1,
-			'name' => '',
-			'description' => '',
-			'exrta' => '',
-			'price' => 0.0
+	'yogen-fruz' => array(
+		'flavurs' => array(
+			'name' => 'flavurs',
+			'types' => array( 
+				array(
+					'id' => 1,
+					'name' => 'Pineapple',
+					'image' => 'res/Pineapple.jpg',
+					'price-sm' => 4.60,
+					'price-md' => 5.20,
+					'price-lg' => 6.50
+				),
+				array(
+					'id' => 2,
+					'name' => 'Blueberry',
+					'image' => 'res/Blueberry.jpg',
+					'price-sm' => 4.60,
+					'price-md' => 5.20,
+					'price-lg' => 6.50
+				),
+				array(
+					'id' => 3,
+					'name' => 'Apple',
+					'image' => 'res/Apple.jpg',
+					'price-sm' => 4.60,
+					'price-md' => 5.20,
+					'price-lg' => 6.50
+				),
+				array(
+					'id' => 4,
+					'name' => 'Cherry',
+					'image' => 'res/Cherry.jpg',
+					'price-sm' => 4.60,
+					'price-md' => 5.20,
+					'price-lg' => 6.50
+				),
+				array(
+					'id' => 5,
+					'name' => 'Blackberry',
+					'image' => 'res/Blackberry.jpg',
+					'price-sm' => 4.60,
+					'price-md' => 5.20,
+					'price-lg' => 6.50
+				),
+				array(
+					'id' => 6,
+					'name' => 'Banana',
+					'image' => 'res/Banana.jpg',
+					'price-sm' => 4.60,
+					'price-md' => 5.20,
+					'price-lg' => 6.50
+				),
+				array(
+					'id' => 7,
+					'name' => 'Raspberry',
+					'image' => 'res/Raspberry.jpg',
+					'price-sm' => 4.60,
+					'price-md' => 5.20,
+					'price-lg' => 6.50
+				),
+				array(
+					'id' => 8,
+					'name' => 'Mango',
+					'image' => 'res/Mango.jpg',
+					'price-sm' => 4.60,
+					'price-md' => 5.20,
+					'price-lg' => 6.50
+				),
+				array(
+					'id' => 9,
+					'name' => 'Peach',
+					'image' => 'res/Peach.jpg',
+					'price-sm' => 4.60,
+					'price-md' => 5.20,
+					'price-lg' => 6.50
+				),
+				array(
+					'id' => 10,
+					'name' => 'Strawberry',
+					'image' => 'res/Strawberry.jpg',
+					'price-sm' => 4.60,
+					'price-md' => 5.20,
+					'price-lg' => 6.50
+				),
+				array(
+					'id' => 11,
+					'name' => 'Chocolate',
+					'image' => 'res/Chocolate.jpg',
+					'price-sm' => 4.60,
+					'price-md' => 5.20,
+					'price-lg' => 6.50
+				),
+				array(
+					'id' => 12,
+					'name' => 'Vanila',
+					'image' => 'res/Vanila.jpg',
+					'price-sm' => 4.60,
+					'price-md' => 5.20,
+					'price-lg' => 6.50
+				)
+			),
+			'description' => 'probiotic yogurt* or non dairy',
+			'price-sm' => 4.60,
+			'price-md' => 5.20,
+			'price-lg' => 6.50
+		),
+		'top-it' => array(
+			'name' => 'top it',
+			'types' => array(
+				'Almond Granola',
+				'Brownie',
+				'Caramel Cup',
+				'Cheesecake Bites',
+				'Cookie Dough Bites',
+				'Dark Chocolate Curls',
+				'Fresh Strawberry',
+				'Graham Crumbs',
+				'Gummy Bears',
+				'M & M Mini',
+				'Mango Magic Balls',
+				'Maraschino Cherries',
+				'Nerds',
+				'Oreo',
+				'Peanut Butter Cup',
+				'Rainbow Sprinkles',
+				'Red Velvet Bites',
+				'Salted Caramel Truffle',
+				'Shredded Coconut',
+				'Sliced Almonds',
+				'Strawberry Magic Balls',
+				'Yogurt Chips'
+			),
+			'price' => 'toppings: 60c each'
+		),
+		'u-sensations' => array(
+			'name' => 'u sensations',
+			'types' => array(
+				array(
+					'name' => 'Apple Pie',
+					'image' => "/res/apple-pie.png",
+					'description' => 'Apple, Auttum, Spice, Graham Cookies Crumbs',
+					'extra' => '140cal*'
+				),
+				array(
+					'name' => 'Pinacolada',
+					'image' => "/res/pinacolada.png",
+					'description' => 'Pineapple, Shredded Coconut',
+					'extra' => '110cal*'
+				),
+				array(
+					'name' => 'Coffee',
+					'image' => "/res/coffee.png",
+					'description' => 'Premium Espresso, Dark Chocolate',
+					'extra' => '140cal*'
+				),
+				array(
+					'name' => 'Red Velvet',
+					'image' => "/res/red-velvet.png",
+					'description' => 'Chocolate and Vanila Froyo*, Red Velvet Cake Bites',
+					'extra' => '190cal*'
+				),
+				array(
+					'name' => 'Chai Latte',
+					'image' => "/res/chai-latte.png",
+					'description' => 'Chai Spice, Sliced Almond',
+					'extra' => '140cal*'
+				),
+				array(
+					'name' => 'Key Lime Pie',
+					'image' => "/res/key-lime-pie.png",
+					'description' => 'Graham Cookie Crumbs, Key lime',
+					'extra' => '150cal*'
+				),
+				array(
+					'name' => 'Chocolate Mint',
+					'image' => "/res/chocolate-mint.png",
+					'description' => 'Dark Chocolate Curls, Mint Syrup',
+					'extra' => '150cal*'
+				),
+				array(
+					'name' => 'Pumpkin Spice',
+					'image' => "/res/pumpkin-spice.png",
+					'description' => 'Auttum Spice, Graham Cookie Crumbs',
+					'extra' => '140cal*'
+				),
+				array(
+					'name' => 'Strawberry Cheesecake',
+					'image' => "/res/strawberry-cheesecake.png",
+					'description' => 'Strawberries, Cheesecake Bites, Graham Cookie Crumbs',
+					'extra' => '210cal*'
+				),
+				array(
+					'name' => 'Green Tea',
+					'image' => "/res/green-tea.png",
+					'description' => 'Green Tea Powder',
+					'extra' => '110cal*'
+				),
+				array(
+					'name' => 'Chocolate Almond',
+					'image' => "/res/chocolate-almond.png",
+					'description' => 'Chocolate Froyo*, Dark Chocolate Curls, Sliced Almond',
+					'extra' => '150cal*'
+				),
+				array(
+					'name' => 'Oreo',
+					'image' => "/res/oreo.png",
+					'description' => 'Oreo* Cookie Crumbs, Flavur of your choice, Vanila, Chocolate or Mint',
+					'extra' => '175cal*'
+				)
+			),
+			'extra' => '*Based on 125mL serving of low-fat frozen yogurt',
+			'price-sm' => 5.10,
+			'price-md' => 5.90,
+			'price-lg' => 6.70
+		),
+		'smoothies' => array(
+			'name' => 'smoothies',
+			'types' => array(
+				'Raspberry Blast',
+				'Tropical Storm',
+				'Strawberry Banana',
+				'Peach Berry Sunset',
+				'Very Berry',
+				'Blueberry Breeze'
+			),
+			'description' => 'probiotic yogurt* or non dairy',
+			'price-sm' => 4.75,
+			'price-md' => 5.75,
+			'price-lg' => 6.75
+		),
+		'go-green' => array(
+			'name' => 'go green',
+			'types' => array(
+				'Avocado Kale',
+				'Apple Coconut',
+				'Tropical Green',
+				'Almond Kale'
+			),
+			'description' => 'green smoothies made with kale',
+		),
+		'shake-it-up' => array(
+			'name' => 'shake it up',
+			'description' => 'Make any frozen yogurt into a shake.',
+			'price' => 5.75
 		)
 	),
 	'dipping-sauces' => array(
 		array(
 			'id' => 1,
-			'name' => '',
+			'name' => 'Cheesy Jalapeno',
 			'description' => '',
 			'exrta' => '',
-			'price' => 0.0
+			'price' => 0.85
+		),
+		array(
+			'id' => 2,
+			'name' => 'Roasted Garlic',
+			'description' => '',
+			'exrta' => '',
+			'price' => 0.85
+		),
+		array(
+			'id' => 3,
+			'name' => 'Ranch',
+			'description' => '',
+			'exrta' => '',
+			'price' => 0.85
+		),
+		array(
+			'id' => 4,
+			'name' => 'Sweet Sauce',
+			'description' => '',
+			'exrta' => '',
+			'price' => 0.85
+		),
+		array(
+			'id' => 5,
+			'name' => 'Garlic Sauce',
+			'description' => '',
+			'exrta' => '',
+			'price' => 0.85
+		),
+		array(
+			'id' => 6,
+			'name' => 'Tzatziki',
+			'description' => '',
+			'exrta' => '',
+			'price' => 0.85
+		),
+		array(
+			'id' => 7,
+			'name' => 'Sriracha',
+			'description' => '',
+			'exrta' => '',
+			'price' => 0.85
+		),
+		array(
+			'id' => 1,
+			'name' => 'Marinara',
+			'description' => '',
+			'exrta' => '',
+			'price' => 0.85
 		)
 	),
 	'beverages' => array(

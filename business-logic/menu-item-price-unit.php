@@ -1,22 +1,22 @@
 <?php
 $menuItemPriceUnit = array(
 	'signature-gourmet-pizzas' => array(
-		"price-sm" => "10''",
-		"price-md" => "12''",
-		"price-lg" => "14''",
-		"price-xl" => "18''"
+		"price-sm" => "SMALL 10''",
+		"price-md" => "MEDIUM 12''",
+		"price-lg" => "LARGE 14''",
+		"price-xl" => "X-LARGE 18''"
 	),
 	'gluten-free-pizzas' => array(
-		"price-sm" => "10''",
-		"price-md" => "12''",
-		"price-lg" => "14''",
-		"price-xl" => "18''"
+		"price-sm" => "SMALL 10''",
+		"price-md" => "MEDIUM 12''",
+		"price-lg" => "LARGE 14''",
+		"price-xl" => "X-LARGE 18''"
 	),
 	'dessert-pizzas' => array(
-		"price-sm" => "10''",
-		"price-md" => "12''",
-		"price-lg" => "14''",
-		"price-xl" => "18''"
+		"price-sm" => "SMALL 10''",
+		"price-md" => "MEDIUM 12''",
+		"price-lg" => "LARGE 14''",
+		"price-xl" => "X-LARGE 18''"
 	),
 	"starters" => array(
 		"price" => "",
@@ -50,8 +50,11 @@ $menuItemPriceUnit = array(
 		"price-sm" => "REGULAR",
 		"price-lg" => "LARGE"
 	),
-	"yogen-frux" =>array(
-		"price" => ""
+	"yogen-fruz" =>array(
+		"price" => "",
+		"price-sm" => "S",
+		"price-md" => "R",
+		"price-lg" => "L"
 	),
 	"dipping-sauces" =>array(
 		"price" => ""

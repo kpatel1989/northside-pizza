@@ -1,3 +1,4 @@
+<?php $activeTab = 0; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,7 +26,7 @@
           </div>
         </div>
         <div class="item">
-          <img class="second-slide" src="/res/image-2.jpg" alt="Second slide">          
+          <img class="second-slide" src="/res/image-2.jpg" alt="Second slide">       
         </div>
         <div class="item">
           <img class="third-slide" src="/res/image-3.jpg" alt="Third slide">

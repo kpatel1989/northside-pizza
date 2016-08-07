@@ -5,34 +5,36 @@ $data = $menuData[$alias];
 $units = $menuItemPriceUnit[$alias];
 ?>
 <div class="menu-data">
-	<?php foreach ($data as $pizzaCategory) { ?>
-		<div class="menu-category">
-		<h1><?php echo $pizzaCategory['name'] ?></h1>
-			<?php foreach ($pizzaCategory['pizzas'] as $pizza) { ?>
-				<div class="menu-item">
-					<div class="col-md-5">
-						<div class="name"> <?php echo $pizza['name'] ?> </div>
-						<?php if (isset($pizza['description'])) { ?>
-							<p> <?php echo $pizza['description'] ?> </p>
-						<?php } ?>
-						<?php if (isset($pizza['extra'])) { ?>
-							<p> <?php echo $pizza['exrta'] ?> </p>
-						<?php } ?>
-					</div>
-					<div class="col-md-7">
-						<?php foreach ($units as $key => $value) { 
-						if (isset($pizza[$key])) { ?>
-							<div class="col-md-3 price">
-								<?php if($value != "") {
-									$value = $value . " - ";
-								}
-								echo $value . " $" . $pizza[$key]; ?>
-							</div>
-						<?php } 
-					} ?>
-					</div>
-				</div>
-			<?php } ?>
+	<div class="col-md-offset-5 col-md-7 unit-container">
+	<?php foreach ($units as $key => $value) { ?>
+		<div class="col-md-3 unit">
+			<?php echo $value; ?>
+		</div>
+	<?php } ?>
+	</div>
+	<?php foreach ($data as $dataItem) { ?>
+		<div class="menu-item">
+			<div class="col-md-5">
+				<div class="name"> <?php echo $dataItem['name'] ?> </div>
+				<?php if (isset($dataItem['description'])) { ?>
+					<p class="description"> <?php echo $dataItem['description'] ?> </p>
+				<?php } ?>
+				<?php if (isset($dataItem['extra'])) { ?>
+					<p class='description extra-info'> <?php echo $dataItem['exrta'] ?> </p>
+				<?php } ?>
+			</div>
+			<div class="col-md-7">
+				<?php foreach ($units as $key => $value) { 
+					if (isset($dataItem[$key])) { ?>
+						<div class="col-md-3 price">
+							<?php if ($dataItem[$key] != "") {
+								$dataItem[$key] = "$" . $dataItem[$key];
+							}
+							echo $dataItem[$key]; ?>
+						</div>
+					<?php } 
+				} ?>
+			</div>
 		</div>
 	<?php } ?>
 </div>

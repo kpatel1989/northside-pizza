@@ -11,10 +11,10 @@ $units = $menuItemPriceUnit[$alias];
 				<div class="col-md-5">
 					<div class="name"> <?php echo $dataItem['name'] ?> </div>
 					<?php if (isset($dataItem['description'])) { ?>
-						<p> <?php echo $dataItem['description'] ?> </p>
+						<p class="description"> <?php echo $dataItem['description'] ?> </p>
 					<?php } ?>
 					<?php if (isset($dataItem['extra'])) { ?>
-						<p> <?php echo $dataItem['exrta'] ?> </p>
+						<p class='description extra-info'> <?php echo $dataItem['exrta'] ?> </p>
 					<?php } ?>
 				</div>
 				<div class="col-md-7">

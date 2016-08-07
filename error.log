@@ -1,3 +1,6 @@
 [Wed Jul 27 19:37:02.477679 2016] [authz_core:error] [pid 28344:tid 1160] [client ::1:49273] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost:8085/
 [Wed Jul 27 19:37:02.491691 2016] [authz_core:error] [pid 28344:tid 1156] [client ::1:49275] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost:8085/
 [Thu Jul 28 19:38:58.878090 2016] [:error] [pid 28344:tid 1132] [client ::1:54536] script 'D:/development/ordering-system/menu.php' not found or unable to stat, referer: http://localhost:8085/
+[Sun Aug 07 17:51:30.899337 2016] [core:error] [pid 4700:tid 1148] (20024)The given path is misformatted or contained invalid characters: [client ::1:59178] AH00127: Cannot map GET /%3Cbr%20/%3E%3Cfont%20size= HTTP/1.1 to file, referer: http://localhost:8085/menu.php
+[Sun Aug 07 17:53:56.978893 2016] [core:error] [pid 4700:tid 1152] (20024)The given path is misformatted or contained invalid characters: [client ::1:59335] AH00127: Cannot map GET /%3Cbr%20/%3E%3Cfont%20size= HTTP/1.1 to file, referer: http://localhost:8085/menu.php
+[Sun Aug 07 17:54:00.268261 2016] [core:error] [pid 4700:tid 1140] (20024)The given path is misformatted or contained invalid characters: [client ::1:59337] AH00127: Cannot map GET /%3Cbr%20/%3E%3Cfont%20size= HTTP/1.1 to file, referer: http://localhost:8085/menu.php
