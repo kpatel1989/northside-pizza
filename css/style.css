@@ -180,6 +180,16 @@ body,html{
 
 .yogen-fruz-item.topIt {
     width: 24.999%;
+    background-color: rgba(247, 177, 252, 0.83);
+}
+.yogen-fruz-item.uSensations{
+	background-color: rgba(252, 177, 177, 0.83);
+}
+.yogen-fruz-item.smoothies {
+    background-color: rgba(182, 252, 177, 0.83);
+}
+.yogen-fruz-item.shakeItUp {
+    background-color: rgba(177, 186, 252, 0.83);
 }
 
 .yogen-fruz-item .header {
