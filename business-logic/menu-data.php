@@ -704,7 +704,7 @@ $menuData = array(
 				array(
 					'id' => 1,
 					'name' => 'Pineapple',
-					'image' => 'res/Pineapple.jpg',
+					'image' => 'res/pineapple.jpg',
 					'price-sm' => 4.60,
 					'price-md' => 5.20,
 					'price-lg' => 6.50
@@ -712,7 +712,7 @@ $menuData = array(
 				array(
 					'id' => 2,
 					'name' => 'Blueberry',
-					'image' => 'res/Blueberry.jpg',
+					'image' => 'res/blueberry.jpg',
 					'price-sm' => 4.60,
 					'price-md' => 5.20,
 					'price-lg' => 6.50
@@ -720,7 +720,7 @@ $menuData = array(
 				array(
 					'id' => 3,
 					'name' => 'Apple',
-					'image' => 'res/Apple.jpg',
+					'image' => 'res/apple.jpg',
 					'price-sm' => 4.60,
 					'price-md' => 5.20,
 					'price-lg' => 6.50
@@ -728,7 +728,7 @@ $menuData = array(
 				array(
 					'id' => 4,
 					'name' => 'Cherry',
-					'image' => 'res/Cherry.jpg',
+					'image' => 'res/cherry.jpg',
 					'price-sm' => 4.60,
 					'price-md' => 5.20,
 					'price-lg' => 6.50
@@ -736,7 +736,7 @@ $menuData = array(
 				array(
 					'id' => 5,
 					'name' => 'Blackberry',
-					'image' => 'res/Blackberry.jpg',
+					'image' => 'res/blackberry.jpg',
 					'price-sm' => 4.60,
 					'price-md' => 5.20,
 					'price-lg' => 6.50
@@ -744,7 +744,7 @@ $menuData = array(
 				array(
 					'id' => 6,
 					'name' => 'Banana',
-					'image' => 'res/Banana.jpg',
+					'image' => 'res/banana.jpg',
 					'price-sm' => 4.60,
 					'price-md' => 5.20,
 					'price-lg' => 6.50
@@ -752,7 +752,7 @@ $menuData = array(
 				array(
 					'id' => 7,
 					'name' => 'Raspberry',
-					'image' => 'res/Raspberry.jpg',
+					'image' => 'res/raspberry.jpg',
 					'price-sm' => 4.60,
 					'price-md' => 5.20,
 					'price-lg' => 6.50
@@ -760,7 +760,7 @@ $menuData = array(
 				array(
 					'id' => 8,
 					'name' => 'Mango',
-					'image' => 'res/Mango.jpg',
+					'image' => 'res/mango.jpg',
 					'price-sm' => 4.60,
 					'price-md' => 5.20,
 					'price-lg' => 6.50
@@ -768,7 +768,7 @@ $menuData = array(
 				array(
 					'id' => 9,
 					'name' => 'Peach',
-					'image' => 'res/Peach.jpg',
+					'image' => 'res/peach.jpg',
 					'price-sm' => 4.60,
 					'price-md' => 5.20,
 					'price-lg' => 6.50
@@ -776,7 +776,7 @@ $menuData = array(
 				array(
 					'id' => 10,
 					'name' => 'Strawberry',
-					'image' => 'res/Strawberry.jpg',
+					'image' => 'res/strawberry.jpg',
 					'price-sm' => 4.60,
 					'price-md' => 5.20,
 					'price-lg' => 6.50
@@ -784,7 +784,7 @@ $menuData = array(
 				array(
 					'id' => 11,
 					'name' => 'Chocolate',
-					'image' => 'res/Chocolate.jpg',
+					'image' => 'res/chocolate.jpg',
 					'price-sm' => 4.60,
 					'price-md' => 5.20,
 					'price-lg' => 6.50
@@ -792,7 +792,7 @@ $menuData = array(
 				array(
 					'id' => 12,
 					'name' => 'Vanila',
-					'image' => 'res/Vanila.jpg',
+					'image' => 'res/vanila.jpg',
 					'price-sm' => 4.60,
 					'price-md' => 5.20,
 					'price-lg' => 6.50
@@ -836,73 +836,73 @@ $menuData = array(
 			'types' => array(
 				array(
 					'name' => 'Apple Pie',
-					'image' => "/res/apple-pie.png",
+					'image' => "/res/apple-pie.jpg",
 					'description' => 'Apple, Auttum, Spice, Graham Cookies Crumbs',
 					'extra' => '140cal*'
 				),
 				array(
 					'name' => 'Pinacolada',
-					'image' => "/res/pinacolada.png",
+					'image' => "/res/pinacolada.jpg",
 					'description' => 'Pineapple, Shredded Coconut',
 					'extra' => '110cal*'
 				),
 				array(
 					'name' => 'Coffee',
-					'image' => "/res/coffee.png",
+					'image' => "/res/coffee.jpg",
 					'description' => 'Premium Espresso, Dark Chocolate',
 					'extra' => '140cal*'
 				),
 				array(
 					'name' => 'Red Velvet',
-					'image' => "/res/red-velvet.png",
+					'image' => "/res/red-velvet.jpg",
 					'description' => 'Chocolate and Vanila Froyo*, Red Velvet Cake Bites',
 					'extra' => '190cal*'
 				),
 				array(
 					'name' => 'Chai Latte',
-					'image' => "/res/chai-latte.png",
+					'image' => "/res/chai-latte.jpg",
 					'description' => 'Chai Spice, Sliced Almond',
 					'extra' => '140cal*'
 				),
 				array(
 					'name' => 'Key Lime Pie',
-					'image' => "/res/key-lime-pie.png",
+					'image' => "/res/key-lime-pie.jpg",
 					'description' => 'Graham Cookie Crumbs, Key lime',
 					'extra' => '150cal*'
 				),
 				array(
 					'name' => 'Chocolate Mint',
-					'image' => "/res/chocolate-mint.png",
+					'image' => "/res/chocolate-mint.jpg",
 					'description' => 'Dark Chocolate Curls, Mint Syrup',
 					'extra' => '150cal*'
 				),
 				array(
 					'name' => 'Pumpkin Spice',
-					'image' => "/res/pumpkin-spice.png",
+					'image' => "/res/pumpkin-spice.jpg",
 					'description' => 'Auttum Spice, Graham Cookie Crumbs',
 					'extra' => '140cal*'
 				),
 				array(
 					'name' => 'Strawberry Cheesecake',
-					'image' => "/res/strawberry-cheesecake.png",
+					'image' => "/res/strawberry-cheese-cake.jpg",
 					'description' => 'Strawberries, Cheesecake Bites, Graham Cookie Crumbs',
 					'extra' => '210cal*'
 				),
 				array(
 					'name' => 'Green Tea',
-					'image' => "/res/green-tea.png",
+					'image' => "/res/green-tea.jpg",
 					'description' => 'Green Tea Powder',
 					'extra' => '110cal*'
 				),
 				array(
 					'name' => 'Chocolate Almond',
-					'image' => "/res/chocolate-almond.png",
+					'image' => "/res/chocolate-almond.jpg",
 					'description' => 'Chocolate Froyo*, Dark Chocolate Curls, Sliced Almond',
 					'extra' => '150cal*'
 				),
 				array(
 					'name' => 'Oreo',
-					'image' => "/res/oreo.png",
+					'image' => "/res/vanilla-cnc.jpg",
 					'description' => 'Oreo* Cookie Crumbs, Flavur of your choice, Vanila, Chocolate or Mint',
 					'extra' => '175cal*'
 				)
@@ -915,12 +915,30 @@ $menuData = array(
 		'smoothies' => array(
 			'name' => 'smoothies',
 			'types' => array(
-				'Raspberry Blast',
-				'Tropical Storm',
-				'Strawberry Banana',
-				'Peach Berry Sunset',
-				'Very Berry',
-				'Blueberry Breeze'
+				array(
+					'name' => 'Raspberry Blast',
+					'image'=> '/res/raspberry-blast.jpg',
+				),
+				array(
+					'name' => 'Tropical Storm',
+					'image'=> '/res/tropical-storm.jpg',
+				),
+				array(
+					'name' => 'Strawberry Banana',
+					'image'=> '/res/strawberry-banana.jpg',
+				),
+				array(
+					'name' => 'Peach Berry Sunset',
+					'image'=> '/res/peach-berry-sunset.jpg',
+				),
+				array(
+					'name' => 'Very Berry',
+					'image'=> '/res/very-berry.jpg',
+				),
+				array(
+					'name' => 'Blueberry Breeze',
+					'image'=> '/res/blueberry-breeze.jpg'
+				)
 			),
 			'description' => 'probiotic yogurt* or non dairy',
 			'price-sm' => 4.75,
@@ -930,17 +948,29 @@ $menuData = array(
 		'go-green' => array(
 			'name' => 'go green',
 			'types' => array(
-				'Avocado Kale',
-				'Apple Coconut',
-				'Tropical Green',
-				'Almond Kale'
+				array(
+					"name" => 'Avocado Kale',
+					"image" => 'avocado-kale.jpg',
+				),
+				array(
+					"name" => 'Apple Coconut',
+					"image" => 'apple-coconut.jpg',
+				),
+				array(
+					"name" => 'Tropical Green',
+					"image" => 'tropical-green.jpg',
+				),
+				array(
+					"name" => 'Almond Kale',
+					"image" => 'almond-kale.jpg'
+				)
 			),
 			'description' => 'green smoothies made with kale',
 		),
 		'shake-it-up' => array(
-			'name' => 'shake it up',
+			'name' => 'Shake it up',
 			'description' => 'Make any frozen yogurt into a shake.',
-			'price' => 5.75
+			'price-md' => 5.75
 		)
 	),
 	'dipping-sauces' => array(
@@ -1015,28 +1045,53 @@ $menuData = array(
 			'name' => 'Juice',
 			'description' => 'Dole, Apple, Orange or Cranberry',
 			'exrta' => '',
-			'price-sm' => 2.75
+			'price' => 2.75
 		), 
 		array(
 			'id' => 3,
 			'name' => 'Flavoured Water',
 			'description' => '',
 			'exrta' => '',
-			'price-sm' => 2.75
+			'price' => 2.75
 		), 
 		array(
 			'id' => 4,
 			'name' => 'Gatorade',
 			'description' => '',
 			'exrta' => '',
-			'price-sm' => 2.75
+			'price' => 2.75
 		),
 		array(
 			'id' => 5,
 			'name' => 'Bottle Water',
 			'description' => '',
 			'exrta' => '',
-			'price-sm' => 2.75
+			'price' => 2.75
+		),
+		array(
+			'id' => 6,
+			'name' => 'Pepsi Products',
+			'types' => array(
+				'Can' => array(
+					'Pepsi',
+					'Brisk',
+					'7Up',
+					'MUG',
+					'Crush Orange',
+					'Schweppers',
+					'Crush',
+					'Mountain Dew',
+					'Dr. Pepper'
+				),
+				'2L Btl' => array(
+					'Pepsi',
+					'Brisk',
+					'7Up',
+					'MUG',
+					'Crush Orange',
+					'Schweppers',
+				)
+			)
 		)
 	)
 );

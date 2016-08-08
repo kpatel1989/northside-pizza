@@ -74,6 +74,12 @@ $menuCategories = array(
 	),
 	array(
 		"id" => 13,
+		"name" => 'Beverages',
+		"display-name" => 'Beverages',
+		"alias" => 'beverages'
+	),
+	array(
+		"id" => 14,
 		"name" => 'Yogen fruz',
 		"display-name" => '<img src="/res/yogenfruz.png"/>',
 		"alias" => 'yogen-fruz'

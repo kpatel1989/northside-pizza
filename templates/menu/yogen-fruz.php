@@ -17,7 +17,7 @@ $units = $menuItemPriceUnit[$alias];
 
 	<?php foreach ($items as $item) { ?>
 		<div class="yogen-fruz-item <?php echo $item; ?>">
-			<div class='header'> <?php  echo $item; ?> </div> 
+			<div class='header'> <?php  echo ${$item}['name']; ?> </div> 
 			<?php if (array_key_exists('description', $$item)) { ?>
 				<div class="description">
 					<?php echo ${$item}['description']; ?>
@@ -25,10 +25,14 @@ $units = $menuItemPriceUnit[$alias];
 			<?php } ?>
 			<div class="price-container">
 			<?php foreach ($units as $key => $value) {
+				if (!empty($value)) {
+					$value = "<span class=\"unit\">$value</span>";
+				}
 				if (array_key_exists($key, $$item)) { ?>
 					<div class="price">
 						<?php if (${$item}[$key] != "") {
-							${$item}[$key] = $value . ${$item}[$key];
+							$string = sprintf("%.2f",${$item}[$key]);							
+							${$item}[$key] = $value . $string;
 						}
 						echo ${$item}[$key]; ?>
 					</div>

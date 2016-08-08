@@ -60,7 +60,11 @@ $menuItemPriceUnit = array(
 		"price" => ""
 	),
 	"beverages" =>array(
-		"price" => ""
+		"price" => "", 
+		'price-sm' => "8 oz.",
+		'price-md' => "16 oz.",
+		'Can' => 'Can',
+		'2L Btl' => '2L Btl'
 	),
 );
 ?>
