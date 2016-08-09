@@ -273,8 +273,10 @@ body,html{
 }
 
 .offers {
-    margin-top: 60px;
+    margin-top: 69px;
     text-align: center;
+    width: 100%;
+    margin-right: 8px;
 }
 
 .offer {
