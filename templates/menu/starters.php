@@ -25,6 +25,7 @@ $units = $menuItemPriceUnit[$alias];
 								$unitCount++;
 							}
 						}
+						$unitCount = $unitCount == 0 ? 1 : $unitCount;
 						$colSize = 12 / $unitCount; 
 						foreach ($units as $key => $value) { 
 							if (isset($dataItem[$key])) { ?>

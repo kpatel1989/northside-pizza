@@ -1,5 +1,5 @@
 <div class="footer">
-	<div class="col-md-4 contact">
+	<div class="contact">
 		Contact Us
 		<div class="call-today">
 			<i class="glyphicon glyphicon-earphone"> </i> 780-639-9919 / 780-654-2254
@@ -8,13 +8,13 @@
 			<i class="glyphicon glyphicon-map-marker"> </i>1020 - 8 AVENUE, COLD LAKE NORTH  
 		</div>
 	</div>
-	<div class="col-md-4 contact operating-hours">
+	<div class="contact operating-hours">
 		Operating Hours
 		<div> Sunday to Thursday - 11 AM to 10 PM
 		</div>
 		<div> Friday to Saturday - 11 AM to 12 PM
 		</div>
 	</div>	
-	<div class="col-md-4 contact">
+	<div class="contact">
 	</div>
 </div>	
