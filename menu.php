@@ -8,7 +8,7 @@
 <body>
 	<?php include 'templates/background.php' ?>
     <?php include 'templates/navbar.php' ?>
-    <div class="home-container">
+    <div class="">
 	    <?php include 'templates/menu-category.php' ?>
 		<?php include 'templates/footer.php' ?>
     </div>
