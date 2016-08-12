@@ -296,7 +296,7 @@ body,html{
     font-size: large;
     padding: 10px;
     position: relative;
-    /* margin-top: 90px; */
+    margin-top: 20px;
     padding-left: 30px;
     padding-right: 30px;
     color: wheat;
@@ -307,24 +307,26 @@ body,html{
     /* color: #eee; */
     /* line-height: 30px; */
     text-align: center;
-    text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
-    color: #9c8468;
-    opacity: 0.5;
-    font: 20px 'Museo700';
+    text-shadow: -1px -1px 1px #eea15c, 1px 1px 1px #281d14;
+    color: #976130;
+    opacity: 0.7;
+    font: 30px 'Museo700';
+    font-weight: bold;
 }
 
 .offer-description,.offer-extra,.offer-price {
     padding: 3px;
+    color: #d57f18;
 }
 
 .offer-price {
-    color: maroon;
+    /* color: maroon; */
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 900;
 }
 
 .offer-extra {
-    color: #ef0404;
+    /* color: #ef0404; */
 }
 
 .sidebar-offset {
@@ -363,9 +365,10 @@ div#myCarousel {
 .offer img.background {
     position: absolute;
     width: 100%;
-    margin-top: -25px;
-    height: 110%;
+    margin-top: -40px;
+    height: 120%;
     left: 0px;
     z-index: -1;
     box-sizing: content-box;
+    /* opacity: 0.8; */
 }
