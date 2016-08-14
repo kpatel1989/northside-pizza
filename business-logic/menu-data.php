@@ -969,6 +969,7 @@ $menuData = array(
 		),
 		'shake-it-up' => array(
 			'name' => 'Shake it up',
+			'image' => '/res/shake-it-up.jpg',
 			'description' => 'Make any frozen yogurt into a shake.',
 			'price-md' => 5.75
 		)

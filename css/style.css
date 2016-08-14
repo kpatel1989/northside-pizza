@@ -495,3 +495,14 @@ div#myCarousel {
     border-radius: 50%;
     width: 100px;
 }
+
+
+.yogen-fruz-item.shakeItUp .image {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+img.shake-it-up {
+    width: 400px;
+}

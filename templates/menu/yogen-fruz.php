@@ -56,6 +56,11 @@ $units = $menuItemPriceUnit[$alias];
 				<?php }
 			} ?>
 			</div> 
+			<?php if (array_key_exists('image', $$item)) { ?>
+				<div class="image">
+					<img class="shake-it-up" src="<?php echo ${$item}['image']; ?>"/>
+				</div>
+			<?php } ?>
 			<?php if (array_key_exists('extra', $$item)) { ?>
 				<div class="extra">
 					<?php echo ${$item}['extra']; ?>
