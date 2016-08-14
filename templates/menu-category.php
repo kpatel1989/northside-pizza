@@ -3,7 +3,11 @@
 	<?php foreach($menuCategories as $category) {?>
 		<div class="menu" data-alias="<?php echo $category['alias'] ?>">
 			<a href="#<?php echo $category['alias'] ?>">
-				<?php echo $category['display-name']?>
+				<?php echo $category['display-name'];
+					if ($category['alias'] == 'yogen-fruz') {
+						echo '<span>click here !</span>';
+					}
+				?>
 			</a>
 		</div>
 	<?php } ?>
