@@ -66,5 +66,8 @@ $menuItemPriceUnit = array(
 		'Can' => 'Can',
 		'2L Btl' => '2L Btl'
 	),
+	'build-your-own' => array(
+		'price' => ""
+	)
 );
 ?>

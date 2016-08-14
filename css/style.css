@@ -112,11 +112,12 @@ body,html{
 
 #menu-items-container {
     padding-right: 20px;
-    padding-top: 60px;
+    padding-top: 105px;
     min-height: 100%;
     padding-bottom: 20px;
     width: 80%;
     display: inline-block;
+    position: relative;
 }
 
 .menu-item {
@@ -265,9 +266,10 @@ body,html{
 
 .footer .contact {
     line-height: 35px;
-    border-right: 1px solid #322b2b;
+    border-left: 1px solid #322b2b;
     width: 47%;
     display: inline-block;
+    padding-left: 15px;
 }
 
 .footer .contact .glyphicon {
@@ -402,4 +404,76 @@ div#myCarousel {
 	line-height: 10px;
 	font-size: 13px;
 	color: #0078b2;
+}
+
+.build-your-own-item {
+    display: inline-block;
+    vertical-align: top;
+    /* padding: 10px; */
+    margin: 2%;
+    box-sizing: border-box;
+    background-color: rgba(200, 221, 200, 0.56);
+    box-shadow: -1px -1px 1px #247324, 1px 1px 1px #247324;
+    min-width: 25%;
+    min-height: 170px;
+    border-radius: 5px;
+}
+
+.build-your-own-item.base {
+    width: 45%;
+    /* min-height: 200px; */
+}
+
+.build-your-own-item.toppings {
+    width: 45%;
+    /* min-height: 200px; */
+}
+
+.build-your-own-item .description {
+    font: 20px 'Museo700';
+    font-weight: bold;
+    text-align: center;
+    /* border-bottom: 1px solid #0c880c; */
+    padding: 10px;
+    color: #c10202;
+}
+
+.build-your-own-item .types-container {
+    padding: 10px;
+    color: #003abe;
+}
+
+.build-your-own-item .type {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.build-your-own-item .type:hover {
+    cursor:pointer;
+    background-color: #457bf4;
+    color: #ffffff;
+}
+
+.build-your-own-item.base .type, .build-your-own-item.toppings .type {
+    width: 49%;
+    display: inline-block;
+    border: 1px solid #b5b2b2;
+    height: 60px;
+    font-size: 18px;
+    vertical-align: top;
+    margin-bottom: 3px;
+}
+
+.build-your-own-item.base .types-container .type .name, .build-your-own-item.toppings .types-container .type .name{
+	width:100%;
+	display: block;
+	text-align: center;
+}
+
+.build-your-own-item.base .types-container .type .price, .build-your-own-item.toppings .types-container .type .price{
+	width:100%;
+	display: block;
+	text-align: center;
 }

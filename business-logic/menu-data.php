@@ -1093,6 +1093,109 @@ $menuData = array(
 				)
 			)
 		)
+	),
+	"build-your-own" => array(
+		'base' => array(
+			'description' => 'SIGNATURE SAUCE & MOZZA CHEESE',
+			'types' => array(
+				array(
+					'name' => 'SMALL 10"',
+					'price' => 8.95
+				),
+				array(
+					'name' => 'MEDIUM 12"',
+					'price' => 11.95
+				),
+				array(
+					'name' => 'LARGE 14"',
+					'price' => 13.95
+				),
+				array(
+					'name' => 'X-LARGE 18"',
+					'price' => 17.95
+				)
+			)
+		),
+		'toppings' => array(
+			'description' => 'EACH ADDITIONAL TOPPING',
+			'types' => array(
+				array(
+					'name' => 'SMALL 10"',
+					'price' => 1.75
+				),
+				array(
+					'name' => 'MEDIUM 12"',
+					'price' => 1.95
+				),
+				array(
+					'name' => 'LARGE 14"',
+					'price' => 2.95
+				),
+				array(
+					'name' => 'X-LARGE 18"',
+					'price' => 3.75
+				)
+			)
+		),
+		'crust' => array(
+			'description' => 'CRUST',
+			'types' => array(
+				'PAN CRUST',
+				'THIN-CRUST',
+				'GLUTEN FREE (2.00 additional)'
+			)
+		),
+		'sauce' => array(
+			'description' => 'SAUCE',
+			'types' => array(
+				'PIZZA',
+				'BBQ',
+				'GARLIC',
+				'RANCH',
+				'MARINARA',
+				'SALSA'
+			)
+		),
+		'cheese' => array(
+			'description' => 'CHEESE',
+			'types' => array(
+				'MOZZA',
+				'CHEDDAR',
+				'FETA',
+				'PARMESAN'
+			)
+		),
+		'meat' => array(
+			'description' => 'MEAT',
+			'types' => array(
+				'PEPPERONI',
+				'SMOKED HAM',
+				'BACON',
+				'SALAMI',
+				'SEASONED BEEF',
+				'DONAIR',
+				'CHICKEN',
+				'MEATBALLS',
+				'STEAK STRIPS'
+			)
+		),
+		'veggies' => array(
+			'description' => 'VEGGIES',
+			'types' => array(
+				'MUSHROOMS',
+				'GREEN PEPPERS',
+				'ONIONS',
+				'PINEAPPLE',
+				'GREEN OLIVES',
+				'BLACK OLIVES',
+				'SPINACH',
+				'TOMATOES',
+				'JALAPENOS',
+				'BANANA PEPPERS',
+				'SUNDRIED TOMATOES',
+				'RED PEPPERS'
+			)
+		)
 	)
 );
 ?>
