@@ -197,6 +197,7 @@ body,html{
 }
 .yogen-fruz-item.smoothies {
     background-color: rgba(182, 252, 177, 0.83);
+    width: 48%;
 }
 .yogen-fruz-item.shakeItUp {
     background-color: rgba(177, 186, 252, 0.83);
@@ -476,4 +477,21 @@ div#myCarousel {
 	width:100%;
 	display: block;
 	text-align: center;
+}
+
+.yogen-fruz-item.goGreen {
+    width: 44%;
+}
+
+.beverage-type img {
+    /* max-width: 100px; */
+    max-height: 70px;
+    margin-bottom: 15px;
+}
+
+.beverage-container-type {
+    background-color: #62a8c1;
+    text-align: center;
+    border-radius: 50%;
+    width: 100px;
 }

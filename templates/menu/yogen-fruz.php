@@ -12,7 +12,7 @@ $units = $menuItemPriceUnit[$alias];
 		$smoothies = $data['smoothies'];
 		$goGreen = $data['go-green'];
 		$shakeItUp = $data['shake-it-up'];
-		$items = array('flavurs', 'topIt', 'uSensations','smoothies','shakeItUp');
+		$items = array('flavurs', 'topIt', 'uSensations','smoothies','goGreen','shakeItUp');
 	?>
 
 	<?php foreach ($items as $item) { ?>
@@ -31,7 +31,10 @@ $units = $menuItemPriceUnit[$alias];
 				if (array_key_exists($key, $$item)) { ?>
 					<div class="price">
 						<?php if (${$item}[$key] != "") {
-							$string = sprintf("%.2f",${$item}[$key]);							
+							$string = ${$item}[$key];
+							if (is_float(${$item}[$key])){
+								$string = sprintf("%.2f",${$item}[$key]);							
+							}
 							${$item}[$key] = $value . $string;
 						}
 						echo ${$item}[$key]; ?>

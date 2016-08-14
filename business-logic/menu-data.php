@@ -699,7 +699,7 @@ $menuData = array(
 	),
 	'yogen-fruz' => array(
 		'flavurs' => array(
-			'name' => 'flavurs',
+			'name' => 'flav&#252;rs',
 			'types' => array( 
 				array(
 					'id' => 1,
@@ -832,7 +832,7 @@ $menuData = array(
 			'price' => 'toppings: 60c each'
 		),
 		'u-sensations' => array(
-			'name' => 'u sensations',
+			'name' => '&#252; sensations',
 			'types' => array(
 				array(
 					'name' => 'Apple Pie',
@@ -950,19 +950,19 @@ $menuData = array(
 			'types' => array(
 				array(
 					"name" => 'Avocado Kale',
-					"image" => 'avocado-kale.jpg',
+					"image" => '/res/avocado-kale.jpg',
 				),
 				array(
 					"name" => 'Apple Coconut',
-					"image" => 'apple-coconut.jpg',
+					"image" => '/res/apple-coconut.jpg',
 				),
 				array(
 					"name" => 'Tropical Green',
-					"image" => 'tropical-green.jpg',
+					"image" => '/res/tropical-green.jpg',
 				),
 				array(
 					"name" => 'Almond Kale',
-					"image" => 'almond-kale.jpg'
+					"image" => '/res/almond-kale.jpg'
 				)
 			),
 			'description' => 'green smoothies made with kale',
@@ -1072,26 +1072,29 @@ $menuData = array(
 			'id' => 6,
 			'name' => 'Pepsi Products',
 			'types' => array(
-				'Can' => array(
-					'Pepsi',
-					'Brisk',
-					'7Up',
-					'MUG',
-					'Crush Orange',
-					'Schweppers',
-					'Crush',
-					'Mountain Dew',
-					'Dr. Pepper'
+				'price-can' => array(
+					'/res/pepsi.png',
+					'/res/diet-pepsi.png',
+					'/res/7up.png',
+					'/res/mug-root-beer.png',
+					'/res/crush.png',
+					'/res/schweppes.png',
+					'/res/brisk.png',
+					'/res/mtn-dew.png',
+					'/res/dr-pepper.png'
 				),
-				'2L Btl' => array(
-					'Pepsi',
-					'Brisk',
-					'7Up',
-					'MUG',
-					'Crush Orange',
-					'Schweppers',
+				'price-2l-btl' => array(
+					'/res/pepsi.png',
+					'/res/diet-pepsi.png',
+					'/res/brisk.png',
+					'/res/7up.png',
+					'/res/mug-root-beer.png',
+					'/res/crush.png',
+					'/res/schweppes.png',
 				)
-			)
+			),
+			'price-can' => 1.50,
+			'price-2l-btl' => 3.50
 		)
 	),
 	"build-your-own" => array(

@@ -35,10 +35,20 @@ $units = $menuItemPriceUnit[$alias];
 						foreach ($units as $key => $value) {
 							if (isset($dataItem['types'])) {
 								if (isset($dataItem['types'][$key])) {
-									$types = implode(", ", $dataItem['types'][$key]); ?>
+									$types = $dataItem['types'][$key]; ?>
 									<tr>
-										<td><div class="col-md-2 unit"><?php echo $value; ?></div>
-										<div class="col-md-10 price"><?php echo $types; ?></div></td>
+										<td><div class="col-md-2 unit price beverage-container-type">
+											<?php echo $value; ?>
+											<?php
+												$string = sprintf("%.2f",$dataItem[$key]);
+												echo $string; 
+											?></div>
+										<div class="col-md-10 beverage-type">
+											<?php
+											foreach ($types as $type) { ?>
+												<img src='<?php echo $type; ?>'/>
+											<?php } ?>
+										</div></td>
 									</tr>
 							<?php }
 							} else {

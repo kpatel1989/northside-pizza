@@ -63,8 +63,8 @@ $menuItemPriceUnit = array(
 		"price" => "", 
 		'price-sm' => "8 oz.",
 		'price-md' => "16 oz.",
-		'Can' => 'Can',
-		'2L Btl' => '2L Btl'
+		'price-can' => 'Can',
+		'price-2l-btl' => '2L Btl'
 	),
 	'build-your-own' => array(
 		'price' => ""
