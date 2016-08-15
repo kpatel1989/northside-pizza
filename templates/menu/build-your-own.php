@@ -112,7 +112,7 @@ $units = $menuItemPriceUnit[$alias];
 							<?php } ?>
 							<div class="f1-buttons">
 	                    		<button type="button" class="btn btn-previous">Previous</button>												
-	                            <button type="button" class="btn btn-next">Next</button>
+	                            <button type="button" class="btn btn-next">Done</button>
 	                        </div>
 					</fieldset>
 					<fieldset class="cheese">
