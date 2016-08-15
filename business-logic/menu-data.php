@@ -44,7 +44,7 @@ $menuData = array(
 		array(
 			'id' => 5,
 			'name' => 'Smokin 67',
-			'description' => 'Grilled chicken breast, mushrooms, onion, mozza, BBQ sauce',
+			'description' => 'Roasted chicken breast, mushrooms, onion, mozza, BBQ sauce',
 			'exrta' => '',
 			'price-sm' => 15.00,
 			'price-md' => 17.00,
@@ -54,7 +54,7 @@ $menuData = array(
 		array(
 			'id' => 6,
 			'name' => 'BBQ Chicken Supreme',
-			'description' => 'Grilled chicken breast, bacon, mushrooms, onion, green peppers, pineapple, mozza, BBQ sauce, topped with ranch dressing',
+			'description' => 'Roasted chicken breast, bacon, mushrooms, onion, green peppers, pineapple, mozza, BBQ sauce, topped with ranch dressing',
 			'exrta' => '',
 			'price-sm' => 15.00,
 			'price-md' => 17.00,
@@ -84,7 +84,7 @@ $menuData = array(
 		array(
 			'id' => 9,
 			'name' => 'Californian',
-			'description' => 'Grilled chicken breast, onions, spinach, tomato, mozza, feta, basil pesto base',
+			'description' => 'Roasted chicken breast, onions, spinach, tomato, mozza, feta, basil pesto base',
 			'exrta' => '',
 			'price-sm' => 15.00,
 			'price-md' => 17.00,
@@ -114,7 +114,7 @@ $menuData = array(
 		array(
 			'id' => 12,
 			'name' => 'Sriracha Chicken',
-			'description' => 'Grilled chicken breast, bacon, red onion, pineapple, mozza, garlic sauce base with sriracha sauce glaze',
+			'description' => 'Roasted chicken breast, bacon, red onion, pineapple, mozza, garlic sauce base with sriracha sauce glaze',
 			'exrta' => '',
 			'price-sm' => 15.00,
 			'price-md' => 17.00,
@@ -134,7 +134,7 @@ $menuData = array(
 		array(
 			'id' => 14,
 			'name' => 'Chicken & Bacon Melt',
-			'description' => 'Grilled chicken breast, bacon, green peppers, onions, cheddar, feta, sundried tomatoes, garlic sauce base',
+			'description' => 'Roasted chicken breast, bacon, green peppers, onions, cheddar, feta, sundried tomatoes, garlic sauce base',
 			'exrta' => '',
 			'price-sm' => 15.00,
 			'price-md' => 17.00,
@@ -184,7 +184,7 @@ $menuData = array(
 		array(
 			'id' => 19,
 			'name' => 'Butter Chicken',
-			'description' => 'Grilled chicken breast, onions, green peppers, mozza, butter chicken sauce base',
+			'description' => 'Roasted chicken breast, onions, green peppers, mozza, butter chicken sauce base',
 			'exrta' => '',
 			'price-sm' => 16.00,
 			'price-md' => 18.00,
@@ -194,7 +194,7 @@ $menuData = array(
 		array(
 			'id' => 20,
 			'name' => 'Sriracha Honey Garlic Chicken',
-			'description' => 'Grilled chicken breast, green peppers, pineapple, mozza, honey garlic sriracha sauce base',
+			'description' => 'Roasted chicken breast, green peppers, pineapple, mozza, honey garlic sriracha sauce base',
 			'exrta' => '',
 			'price-sm' => 15.00,
 			'price-md' => 17.00,
@@ -254,7 +254,7 @@ $menuData = array(
 		array(
 			'id' => 27,
 			'name' => 'Chicken Bacon Melt',
-			'description' => 'Grilled chicken breast, bacon, green peppers, onions, cheddar, (eta, sundried tomatoes, garlic sauce base',
+			'description' => 'Roasted chicken breast, bacon, green peppers, onions, cheddar, (eta, sundried tomatoes, garlic sauce base',
 			'exrta' => '',
 			'price-sm' => 14.95,
 		)
@@ -287,8 +287,8 @@ $menuData = array(
 		array(
 			'id' => 2,
 			'name' => 'Chicken Wings',
-			'description' => '',
-			'exrta' => 'Hot, Mild, Buffalo, BBQ, Sweet Chili, Teriyaki, Honey Garlic, Franks Dry Hot Spice, Lemon Pepper, Salt n Pepper',
+			'description' => 'Hot, Mild, Buffalo, BBQ, Sweet Chili, Teriyaki, Honey Garlic, Franks Dry Hot Spice, Lemon Pepper, Salt n Pepper',
+			'exrta' => '',
 			'price-5pc' => 6.00,
 			'price-10pc' => 11.00,
 			'price-15pc' => 16.00,
@@ -311,16 +311,16 @@ $menuData = array(
 		),
 		array(
 			'id' => 5,
-			'name' => 'Spinach DO Served with Nacbo Chips',
-			'description' => '',
+			'name' => 'Spinach Dip ',
+			'description' => 'Served with Nacho Chips',
 			'exrta' => '',
 			'price' => 12.00,
 		),
 		array(
 			'id' => 6,
 			'name' => 'Garlic Parmesan',
-			'description' => '',
-			'exrta' => '3 cheese garlic bread served with aside of marinara sauce',
+			'description' => 'Served with marinara sauce',
+			'exrta' => '',
 			'price-10\'\'' => 9.95,
 			'price-12\'\'' => 11.95,
 		),
@@ -333,7 +333,7 @@ $menuData = array(
 		),
 		array(
 			'id' => 8,
-			'name' => 'Fakfel Balls',
+			'name' => 'Falafel Balls',
 			'description' => '',
 			'exrta' => 'Choice of tzatziki or garlic sauce',
 			'price-12pc' => 10.00,
@@ -347,25 +347,18 @@ $menuData = array(
 		),
 		array(
 			'id' => 10,
-			'name' => 'Chicken Bites',
+			'name' => 'Chicken Tenders',
 			'description' => '',
 			'exrta' => '',
 			'price-12pc' => 9.95,
 		),
 		array(
 			'id' => 11,
-			'name' => 'Bacon and 3 Cheese Garlic Bread wl Marinara Sauce',
-			'description' => '',
+			'name' => 'Bacon and 3 Cheese Garlic Bread',
+			'description' => 'Served with marinara sauce',
 			'exrta' => '',
 			'price-10\'\'' => 10.95,
 			'price-12\'\'' => 12.95,
-		),
-		array(
-			'id' => 12,
-			'name' => 'Cheddar Cheese Balls',
-			'description' => '',
-			'exrta' => '',
-			'price-8pc' => 6.90,
 		),
 		array(
 			'id' => 13,
@@ -377,8 +370,8 @@ $menuData = array(
 		array(
 			'id' => 14,
 			'name' => 'Donair Eggrolls',
-			'description' => '',
-			'exrta' => 'Choice of sweet or garlic sauce',
+			'description' => 'Choice of sweet or garlic sauce',
+			'exrta' => '',
 			'price-4pc' => 7.95,
 		),
 		array(
@@ -478,7 +471,7 @@ $menuData = array(
 		),
 		array(
 			'id' => 5,
-			'name' => 'Add Crispy or Grilled Chicken',
+			'name' => 'Add Crispy or Roasted chicken',
 			'description' => '',
 			'exrta' => '',
 			'price' => 2.95,
@@ -553,7 +546,7 @@ $menuData = array(
 		array(
 			'id' => 3,
 			'name' => 'Chipotle Chicken Avocado',
-			'description' => 'Grilled Chicken, bacon, cheddar, avocado, lettuce & chipotle sauce',
+			'description' => 'Roasted chicken, bacon, cheddar, avocado, lettuce & chipotle sauce',
 			'exrta' => '',
 			'price' => 8.95
 		),
@@ -574,7 +567,7 @@ $menuData = array(
 		array(
 			'id' => 6,
 			'name' => 'Hawaiian BBQ',
-			'description' => 'Grilled chicken, smoked ham, bacon, swiss, pineapple and BBQ sauce',
+			'description' => 'Roasted chicken, smoked ham, bacon, swiss, pineapple and BBQ sauce',
 			'exrta' => '',
 			'price' => 8.45
 		),
@@ -595,7 +588,7 @@ $menuData = array(
 		array(
 			'id' => 9,
 			'name' => 'Chicken Bacon Ranch',
-			'description' => 'Grilled chicken, tomatoes, bacon, mozzarella, ranch',
+			'description' => 'Roasted chicken, tomatoes, bacon, mozzarella, ranch',
 			'exrta' => '',
 			'price' => 8.95
 		),
@@ -611,7 +604,7 @@ $menuData = array(
 		array(
 			'id' => 1,
 			'name' => 'Chicken Caesar Wrap',
-			'description' => 'Grilled chicken, shaved parmesan, romaine, croutons, caesar dressing',
+			'description' => 'Roasted chicken, shaved parmesan, romaine, croutons, caesar dressing',
 			'exrta' => '',
 			'price' => 7.95
 		),
@@ -639,7 +632,7 @@ $menuData = array(
 		array(
 			'id' => 5,
 			'name' => 'Chicken Bacon Avocado Wrap',
-			'description' => 'Grilled chicken, bacon, romaine, avocado, tomatoes, cucumber & balsamic vinaigrette',
+			'description' => 'Roasted chicken, bacon, romaine, avocado, tomatoes, cucumber & balsamic vinaigrette',
 			'exrta' => '',
 			'price' => 8.95
 		),
@@ -1104,25 +1097,70 @@ $menuData = array(
 			'types' => array(
 				array(
 					'name' => 'SMALL 10"',
-					'price' => 8.95
+					'price' => 8.95,
+					'slices' => '6 slices',
+					'people' => '1-2 ppl',
+					'pieces'=> 3
 				),
 				array(
 					'name' => 'MEDIUM 12"',
-					'price' => 11.95
+					'price' => 11.95,
+					'slices' => '8 slices',
+					'people' => '2-3 ppl',
+					'pieces'=> 4
 				),
 				array(
 					'name' => 'LARGE 14"',
-					'price' => 13.95
+					'price' => 13.95,
+					'slices' => '10 slices',
+					'people' => '3-4 ppl',
+					'pieces'=> 6
 				),
 				array(
 					'name' => 'X-LARGE 18"',
-					'price' => 17.95
+					'price' => 17.95,
+					'slices' => '12 slices',
+					'people' => '4-5 ppl',
+					'pieces'=> 5
 				)
 			)
 		),
 		'toppings' => array(
 			'description' => 'EACH ADDITIONAL TOPPING',
 			'types' => array(
+				'meat' => array(
+					'description' => 'MEAT',
+					'types' => array(
+						'PEPPERONI',
+						'SMOKED HAM',
+						'BACON',
+						'SALAMI',
+						'SEASONED BEEF',
+						'DONAIR',
+						'CHICKEN',
+						'MEATBALLS',
+						'STEAK STRIPS'
+					)
+				),
+				'veggies' => array(
+					'description' => 'VEGGIES',
+					'types' => array(
+						'MUSHROOMS',
+						'GREEN PEPPERS',
+						'ONIONS',
+						'PINEAPPLE',
+						'GREEN OLIVES',
+						'BLACK OLIVES',
+						'SPINACH',
+						'TOMATOES',
+						'JALAPENOS',
+						'BANANA PEPPERS',
+						'SUNDRIED TOMATOES',
+						'RED PEPPERS'
+					)
+				)
+			),
+			'price' => array(
 				array(
 					'name' => 'SMALL 10"',
 					'price' => 1.75
@@ -1167,37 +1205,6 @@ $menuData = array(
 				'CHEDDAR',
 				'FETA',
 				'PARMESAN'
-			)
-		),
-		'meat' => array(
-			'description' => 'MEAT',
-			'types' => array(
-				'PEPPERONI',
-				'SMOKED HAM',
-				'BACON',
-				'SALAMI',
-				'SEASONED BEEF',
-				'DONAIR',
-				'CHICKEN',
-				'MEATBALLS',
-				'STEAK STRIPS'
-			)
-		),
-		'veggies' => array(
-			'description' => 'VEGGIES',
-			'types' => array(
-				'MUSHROOMS',
-				'GREEN PEPPERS',
-				'ONIONS',
-				'PINEAPPLE',
-				'GREEN OLIVES',
-				'BLACK OLIVES',
-				'SPINACH',
-				'TOMATOES',
-				'JALAPENOS',
-				'BANANA PEPPERS',
-				'SUNDRIED TOMATOES',
-				'RED PEPPERS'
 			)
 		)
 	)

@@ -2,7 +2,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<?php include 'templates/head.php' ?>
+    <link href="css/wizard-style.css" rel="stylesheet">    
+    <link href="css/form-elements.css" rel="stylesheet">    
+    <?php include 'templates/head.php' ?>
     <title>North Side Pizza</title>
 </head>
 <body>

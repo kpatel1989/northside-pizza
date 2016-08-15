@@ -13,3 +13,4 @@ if (in_array($alias, ['signature-gourmet-pizzas','gluten-free-pizzas','dessert-p
 	include 'templates/menu/starters.php';
 }
 ?>
+<script type="text/javascript" src="/js/scripts.js"></script>
